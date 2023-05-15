@@ -1,10 +1,12 @@
 # DBManagementCLI
 CLI tool for management db server
 
-App build:    
+##App build:    
 <code>docker build -t udvapp . </code>      
 
-В качестве СУБД будет postgresql контейнер с именем pg:    
+В качестве СУБД будет postgresql контейнер с именем pg:
+POSTGRES_PASSWORD=docker
+POSTGRES_USER=docker    
 ![postgres](https://raw.githubusercontent.com/evilbebra/DBManagementCLI/master/pg.jpg)    
      
 Чтобы приложение в докере могло взаимодействовать с контейнером postgresql поместим их    
