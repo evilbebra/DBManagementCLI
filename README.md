@@ -5,7 +5,7 @@ App build:
 <code>docker build -t udvapp . </code>      
 
 В качестве СУБД будет postgresql контейнер с именем pg:    
-![postgres](https://github.com/evilbebra/DBManagementCLI/pg.jpg)    
+![postgres](https://raw.githubusercontent.com/evilbebra/DBManagementCLI/master/pg.jpg)    
      
 Чтобы приложение в докере могло взаимодействовать с контейнером postgresql поместим их    
 в докер-сеть:    
@@ -15,6 +15,6 @@ App build:
     
     
 Запустив контейнер, проверим, что приложение работает:  
-<code>docker exec -it udv /bin/bash </code> 
+<code>docker exec -it udv /bin/bash </code>    
 <code>./main</code>    
-![output1](https://github.com/evilbebra/DBManagementCLI/output1.jpg)      
+![output1](https://raw.githubusercontent.com/evilbebra/DBManagementCLI/master/output1.jpg)      
